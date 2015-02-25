@@ -18,10 +18,10 @@ Priority  | Success Criteria | Comments
 
 Priority  | Success Criteria | Comments
 ------------- | ------------- | -------------
-2 | 2.4.4 Link Purpose (In Context): The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general. (Level A) | This one might be tough to test.
+2 | 2.4.4 Link Purpose (In Context): The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general. (Level A) | This one might be tough to test. Very related to 2.4.9. WCAG suggest that content should comply 2.4.9 if possible so that context is not needed.
 2 | 2.4.6 Headings and Labels: Headings and labels describe topic or purpose. (Level AA) |
 4 | 2.4.2 Page Titled: Web pages have titles that describe topic or purpose. (Level A) | Only in `full page` mode.
-4 | 2.4.9 Link Purpose (Link Only): A mechanism is available to allow the purpose of each link to be identified from link text alone, except where the purpose of the link would be ambiguous to users in general. (Level AAA) |
+4 | 2.4.9 Link Purpose (Link Only): A mechanism is available to allow the purpose of each link to be identified from link text alone, except where the purpose of the link would be ambiguous to users in general. (Level AAA)
 5 | 2.4.3 Focus Order: If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability. (Level A) | We want to ensure that `tabindex` attr is not used, and if it is we'll notice the user about potential problems.
 5 | 2.1.2 No Keyboard Trap: If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away. (Level A) | Strictly related to Flash problem.
 
