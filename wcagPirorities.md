@@ -24,7 +24,6 @@ Priority  | Success Criteria | Comments
 2 | 2.4.4 Link Purpose (In Context): The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general. (Level A) | This one might be tough to test.
 2 | 2.4.6 Headings and Labels: Headings and labels describe topic or purpose. (Level AA) |
 4 | 2.4.9 Link Purpose (Link Only): A mechanism is available to allow the purpose of each link to be identified from link text alone, except where the purpose of the link would be ambiguous to users in general. (Level AAA) |
-cell1 | cell2 |
 
 ## Principle 3: Understandable - Information and the operation of user interface must be understandable.
 
@@ -34,7 +33,6 @@ Priority  | Success Criteria | Comments
 4 | 3.1.2 Language of Parts: The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. (Level AA) |
 2 | 3.1.3 Unusual Words: A mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon. (Level AAA) | This should allow to set a dictionary of unusual words.
 4 | 3.1.4 Abbreviations: A mechanism for identifying the expanded form or meaning of abbreviations is available. (Level AAA) |
-cell1 | cell2 |
 
 ## Principle 4: Robust - Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.
 
