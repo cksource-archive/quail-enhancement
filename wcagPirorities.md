@@ -2,8 +2,6 @@
 
 Priority / Order | Success Criteria | Comments
 ------------- | ------------- | -------------
-1 : | ~~1.3.2 Meaningful Sequence: When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined. (Level A)~~ | Testing might be quite taugh. Actually impossible.
-3 :  | ~~1.3.3 Sensory Characteristics: Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound. (Level A)~~ | Well we can't really test anything here. The only thing we can do is to add a notice to ensure that there are no such information.
 2 : 1 | 1.3.1 Info and Relationships: Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text. (Level A) | Lets figure out how does it work with our content.<br/>Edit: well we're supporting it out of a box.
 2 : 2 | 2.4.6 Headings and Labels: Headings and labels describe topic or purpose. (Level AA) | We can e.g. ensure that hadlines / labels aren't too lengthy.
 2 : 3 | 2.4.4 Link Purpose (In Context): The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general. (Level A) | This one might be tough to test. Very related to 2.4.9. WCAG suggest that content should comply 2.4.9 if possible so that context is not needed.
@@ -21,3 +19,5 @@ Priority / Order | Success Criteria | Comments
 5 : 15 | 3.1.1 Language of Page: The default human language of each Web page can be programmatically determined. (Level A) | Only for `full page` mode.
 5 : 16 | 1.2.1 Audio-only and Video-only (Prerecorded): For prerecorded audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such: (Level A) | We want to do this in near future, as CKE will support it
 5 : 17 | 1.2.5 Audio Description (Prerecorded): Audio description is provided for all prerecorded video content in synchronized media. (Level AA) | In near future.
+1 : | ~~1.3.2 Meaningful Sequence: When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined. (Level A)~~ | Testing might be quite taugh. Actually impossible.
+3 : | ~~1.3.3 Sensory Characteristics: Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound. (Level A)~~ | Well we can't really test anything here. The only thing we can do is to add a notice to ensure that there are no such information.
