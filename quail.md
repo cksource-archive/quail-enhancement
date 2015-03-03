@@ -10,14 +10,14 @@ Quail tests:
 * [F17](F17) - 7 - Interesting, there's no Failure 17 in WCAG2.
 * [F33](F33) - 6 - I don't see this problem important as by default HTML whitespace stripping won't allow you to create this problem.
 * [F34](F34) - 6 - I don't see this problem important as by default HTML whitespace stripping won't allow you to create this problem.
-* [F46](F46) - 2 - Pretty important, as our users might ofter work with tables.
+* [F46](F46) - 6 - Not really important as our users should not create layout table with CKE.
 * [F48](F48) - 5 - I don't see this problem important as I can't imagine ppl to make tables with pre in CKE.
 * [F68](F68) - 5 - We are not likely to work with form inputs ATM.
 * [F91](F91) - 2 - Pretty important, as our users might ofter work with tables.
 * [G140](G140) - 3 - I'm missing few associations with the existing tests.
-* [G141](G141) - 3 - Some decent tests in place.
-* [H28](H28)
-* [H39](H39)
+* [G141](G141) - 3 - Some decent tests are in place.
+* [H28](H28) - 7 - WTF? H28 is related to 3.1.4... remove `H28` from `documentVisualListsAreMarkedUp`.
+* [H39](H39) - 3 - Table caption/summary tests.
 * [H42](H42)
 * [H43](H43)
 * [H44](H44)
