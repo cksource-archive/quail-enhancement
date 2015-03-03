@@ -6,29 +6,29 @@ All the research is based on latest Quail for the time being, that's 2.2.15.
 
 Quail tests:
 
-* [ARIA2](ARIA2.md)
-* [F17](F17.md)
-* [F33](F33.md)
-* [F34](F34.md)
-* [F46](F46.md)
-* [F48](F48.md)
-* [F68](F68.md)
-* [F91](F91.md)
-* [G140](G140.md)
-* [G141](G141.md)
-* [H28](H28.md)
-* [H39](H39.md)
-* [H42](H42.md)
-* [H43](H43.md)
-* [H44](H44.md)
-* [H48](H48.md)
-* [H49](H49.md)
-* [H63](H63.md)
-* [H65](H65.md)
-* [H71](H71.md)
-* [H85](H85.md)
-* [T2](T2.md)
-* [T3](T3.md)
+* [ARIA2](ARIA2)
+* [F17](F17) - 7 - Interesting, there's no Failure 17 in WCAG2.
+* [F33](F33) - 6 - I don't see this problem important as by default HTML whitespace stripping won't allow you to create this problem.
+* [F34](F34) - 6 - I don't see this problem important as by default HTML whitespace stripping won't allow you to create this problem.
+* [F46](F46) - 2 - Pretty important, as our users might ofter work with tables.
+* [F48](F48) - 5 - I don't see this problem important as I can't imagine ppl to make tables with pre in CKE.
+* [F68](F68) - 5 - We are not likely to work with form inputs ATM.
+* [F91](F91) - 2 - Pretty important, as our users might ofter work with tables.
+* [G140](G140) - 3 - I'm missing few associations with the existing tests.
+* [G141](G141) - 3 - Some decent tests in place.
+* [H28](H28)
+* [H39](H39)
+* [H42](H42)
+* [H43](H43)
+* [H44](H44)
+* [H48](H48)
+* [H49](H49)
+* [H63](H63)
+* [H65](H65)
+* [H71](H71)
+* [H85](H85)
+* [T2](T2)
+* [T3](T3)
 
 # 2.4.6 Headings and Labels: Headings and labels describe topic or purpose. (Level AA) | We can e.g. ensure that hadlines / labels aren't too lengthy.
 
@@ -52,3 +52,9 @@ Priority / Order | Success Criteria | Comments
 5 : 17 | 1.2.5 Audio Description (Prerecorded): Audio description is provided for all prerecorded video content in synchronized media. (Level AA) | In near future.
 1 : | ~~1.3.2 Meaningful Sequence: When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined. (Level A)~~ | Testing might be quite taugh. Actually impossible.
 3 : | ~~1.3.3 Sensory Characteristics: Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound. (Level A)~~ | Well we can't really test anything here. The only thing we can do is to add a notice to ensure that there are no such information.
+
+
+@todo:
+We might consider following techniques:
+* *H69* - 2.4.10 - Providing heading elements at the beginning of each section of content [H69 at WCAG2](http://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/H69.html).
+	* Make sense to check if there's a header in the content. Related a little bit to [G141](G141).
