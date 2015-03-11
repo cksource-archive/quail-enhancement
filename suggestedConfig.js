@@ -14,5 +14,5 @@ var assessments = [
 	'listOfLinksUseList',
 	// 'documentVisualListsAreMarkedUp', // Would be handy if it would support <br /> with attributes.
 	// `definitionListsAreUsed`, // Would be handy if only we'd support dl/dt/dd.
-	
+	'tableUsesScopeForRow',
 ];

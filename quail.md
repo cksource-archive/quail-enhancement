@@ -18,15 +18,15 @@ Quail tests:
 * [G141](G141) - 3 - Some decent tests are in place.
 * [H28](H28) - 7 - WTF? H28 is related to 3.1.4... remove `H28` from `documentVisualListsAreMarkedUp`.
 * [H39](H39) - 3 - Table caption/summary tests.
-* [H42](H42)
-* [H43](H43)
-* [H44](H44)
+* [H42](H42) - 2 - There's an easy assessment proposition and we care about headers.
+* [H43](H43) - 5 - We have no tools.
+* [H44](H44) - 5 - We are not likely to work with form inputs ATM.
 * [H48](H48) - 1 - Covering list element usage in the structured docs. I found it pretty important.
 * [H49](H49)
-* [H63](H63)
-* [H65](H65)
-* [H71](H71)
-* [H85](H85)
+* [H63](H63) - 4 - Test is OK, but we need a better support for tables in CKE to allow manual changes here.
+* [H65](H65) - 6 - This one is related to form controls.
+* [H71](H71) - 6 - This one is related to form controls.
+* [H85](H85) - 6 - This one is related to form controls.
 * [T2](T2)
 * [T3](T3)
 
