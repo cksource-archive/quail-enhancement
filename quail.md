@@ -20,7 +20,7 @@ Note in this document we refer to Failure of SC also as Technique, since Quail t
 * [H28](H28) - 7 - WTF? H28 is related to 3.1.4... remove `H28` from `documentVisualListsAreMarkedUp`.
 * [H39](H39) - 3 - Table caption/summary tests.
 * [H42](H42) - 2 - There's an easy assessment proposition and we care about headers.
-* [H43](H43) - 5 - We have no tools.
+* [H43](H43) - 5 - We have no tools to set `id` / `header` attr.
 * [H44](H44) - 5 - We are not likely to work with form inputs ATM.
 * [H48](H48) - 1 - Covering list element usage in the structured docs. I found it pretty important.
 * [H49](H49) - 1 - Using sem elements wherever is possible would be very good.
@@ -46,6 +46,7 @@ It's ok, for the time being. We're not supporting nav elements (but maybe we sho
 
 * F43
 	* `blockquoteNotUsedForIndentation` could be also mapped to `F43`.
+	* `pNotUsedAsHeader` could be also mapped to `F43`.
 
 # 2.4.6 Headings and Labels: Headings and labels describe topic or purpose. (Level AA) | We can e.g. ensure that hadlines / labels aren't too lengthy.
 
