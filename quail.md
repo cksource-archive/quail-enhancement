@@ -4,7 +4,7 @@ All the research is based on latest Quail for the time being, that's 2.2.15.
 
 # 1.3.1 Info and Relationships: Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text. (Level A) | Lets figure out how does it work with our content.<br/>Edit: well we're supporting it out of a box.
 
-Quail tests:
+## Quail tests:
 
 * [ARIA2](ARIA2)
 * [F17](F17) - 7 - Interesting, there's no Failure 17 in WCAG2.
@@ -22,13 +22,32 @@ Quail tests:
 * [H43](H43) - 5 - We have no tools.
 * [H44](H44) - 5 - We are not likely to work with form inputs ATM.
 * [H48](H48) - 1 - Covering list element usage in the structured docs. I found it pretty important.
-* [H49](H49)
+* [H49](H49) - 1 - Using sem elements wherever is possible would be very good.
 * [H63](H63) - 4 - Test is OK, but we need a better support for tables in CKE to allow manual changes here.
 * [H65](H65) - 6 - This one is related to form controls.
 * [H71](H71) - 6 - This one is related to form controls.
 * [H85](H85) - 6 - This one is related to form controls.
-* [T2](T2)
-* [T3](T3)
+* [T2](T2) - 7 - We should not care as we work with HTML which provides semantic markup.
+* [T3](T3) - 7 - We should not care as we work with HTML which provides semantic markup.
+
+## Missing relations:
+
+* `pNotUsedAsHeader`
+	* F2
+
+## Techniques that are not checked:
+
+* G138: Using semantic markup whenever color cues are used.
+
+(**new assessment**:) We could actually handle this one, because all we need to do is to check for a `span[style="color:#\d{6}"]`. Then we need to check if it has a wrapping sem element.
+
+* H73: Using the summary attribute of the table element to give an overview of data tables (HTML)
+
+It's fine, because it's dedicated for HTML 4.01 and XHTML 1.x and it's deprecated in HTML 5.
+
+* H97: Grouping related links using the nav element (HTML)
+
+It's ok, for the time being. We're not supporting nav elements (but maybe we should?).
 
 # 2.4.6 Headings and Labels: Headings and labels describe topic or purpose. (Level AA) | We can e.g. ensure that hadlines / labels aren't too lengthy.
 
