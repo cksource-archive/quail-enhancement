@@ -25,6 +25,9 @@ Note in this document we refer to Failure of SC also as Technique, since Quail t
 * [H65](H65) - 6 - This one is related to form controls.
 * [H71](H71) - 6 - This one is related to form controls.
 * [H85](H85) - 6 - This one is related to form controls.
+
+## Unnecessary techniques from our POV:
+
 * [F17](F17) - 7 - Interesting, there's no Failure 17 in WCAG2.
 * [H28](H28) - 7 - WTF? H28 is related to 3.1.4... remove `H28` from `documentVisualListsAreMarkedUp`.
 * [ARIA2](ARIA2) - 7 - Aria tests are not interesting for CKE.
