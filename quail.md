@@ -7,27 +7,27 @@ Note in this document we refer to Failure of SC also as Technique, since Quail t
 
 ## Quail tests:
 
-* [ARIA2](ARIA2)
-* [F17](F17) - 7 - Interesting, there's no Failure 17 in WCAG2.
-* [F33](F33) - 6 - I don't see this problem important as by default HTML whitespace stripping won't allow you to create this problem.
-* [F34](F34) - 6 - I don't see this problem important as by default HTML whitespace stripping won't allow you to create this problem.
-* [F46](F46) - 6 - Not really important as our users should not create layout table with CKE.
-* [F48](F48) - 5 - I don't see this problem important as I can't imagine ppl to make tables with pre in CKE.
-* [F68](F68) - 5 - We are not likely to work with form inputs ATM.
+* [H49](H49) - 1 - Using sem elements wherever is possible would be very good.
+* [H48](H48) - 1 - Covering list element usage in the structured docs. I found it pretty important.
+* [H42](H42) - 2 - There's an easy assessment proposition and we care about headers.
 * [F91](F91) - 2 - Pretty important, as our users might ofter work with tables.
 * [G140](G140) - 3 - I'm missing few associations with the existing tests.
 * [G141](G141) - 3 - Some decent tests are in place.
-* [H28](H28) - 7 - WTF? H28 is related to 3.1.4... remove `H28` from `documentVisualListsAreMarkedUp`.
 * [H39](H39) - 3 - Table caption/summary tests.
-* [H42](H42) - 2 - There's an easy assessment proposition and we care about headers.
-* [H43](H43) - 5 - We have no tools to set `id` / `header` attr.
-* [H44](H44) - 5 - We are not likely to work with form inputs ATM.
-* [H48](H48) - 1 - Covering list element usage in the structured docs. I found it pretty important.
-* [H49](H49) - 1 - Using sem elements wherever is possible would be very good.
 * [H63](H63) - 4 - Test is OK, but we need a better support for tables in CKE to allow manual changes here.
+* [H43](H43) - 5 - We have no tools to set `id` / `header` attr.
+* [F68](F68) - 5 - We are not likely to work with form inputs ATM.
+* [F48](F48) - 5 - I don't see this problem important as I can't imagine ppl to make tables with pre in CKE.
+* [H44](H44) - 5 - We are not likely to work with form inputs ATM.
+* [F46](F46) - 6 - Not really important as our users should not create layout table with CKE.
+* [F34](F34) - 6 - I don't see this problem important as by default HTML whitespace stripping won't allow you to create this problem.
+* [F33](F33) - 6 - I don't see this problem important as by default HTML whitespace stripping won't allow you to create this problem.
 * [H65](H65) - 6 - This one is related to form controls.
 * [H71](H71) - 6 - This one is related to form controls.
 * [H85](H85) - 6 - This one is related to form controls.
+* [F17](F17) - 7 - Interesting, there's no Failure 17 in WCAG2.
+* [H28](H28) - 7 - WTF? H28 is related to 3.1.4... remove `H28` from `documentVisualListsAreMarkedUp`.
+* [ARIA2](ARIA2) - 7 - Aria tests are not interesting for CKE.
 * [T2](T2) - 7 - We should not care as we work with HTML which provides semantic markup.
 * [T3](T3) - 7 - We should not care as we work with HTML which provides semantic markup.
 
