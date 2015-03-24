@@ -18,4 +18,5 @@ var assessments = [
 	'tableWithBothHeadersUseScope',
 	// 'tableDataShouldHaveTh', // Only after fixed mentioned in F91.
 	// 'documentContentReadableWithoutStylesheets', // Only after fixes mentioned in G140.
+	'headersHaveText',
 ];
