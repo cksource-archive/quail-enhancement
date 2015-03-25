@@ -41,11 +41,12 @@ Note in this document we refer to Failure of SC also as Technique, since Quail t
 
 * H73: Using the summary attribute of the table element to give an overview of data tables (HTML)
 
-It's fine, because it's dedicated for HTML 4.01 and XHTML 1.x and it's deprecated in HTML 5.
+	* `tableLayoutHasNoSummary` should be assigned to H73.
+	* Note that summary is deprecated in HTML5.
 
 * H97: Grouping related links using the nav element (HTML)
 
-It's ok, for the time being. We're not supporting nav elements (but maybe we should?).
+	It's ok, for the time being. We're not supporting nav elements (but maybe we should?).
 
 * F43
 	* `blockquoteNotUsedForIndentation` could be also mapped to `F43`.
