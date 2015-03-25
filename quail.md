@@ -74,9 +74,3 @@ Priority / Order | Success Criteria | Comments
 5 : 17 | 1.2.5 Audio Description (Prerecorded): Audio description is provided for all prerecorded video content in synchronized media. (Level AA) | In near future.
 1 : | ~~1.3.2 Meaningful Sequence: When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined. (Level A)~~ | Testing might be quite taugh. Actually impossible.
 3 : | ~~1.3.3 Sensory Characteristics: Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound. (Level A)~~ | Well we can't really test anything here. The only thing we can do is to add a notice to ensure that there are no such information.
-
-
-@todo:
-We might consider following techniques:
-* *H69* - 2.4.10 - Providing heading elements at the beginning of each section of content [H69 at WCAG2](http://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/H69.html).
-	* Make sense to check if there's a header in the content. Related a little bit to [G141](G141.md).
