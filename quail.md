@@ -38,7 +38,6 @@ Note in this document we refer to Failure of SC also as Technique, since Quail t
 
 * [F2](F2.md) - 4 - Some minor improvement proposed.
 * [G138](G138.md) - 4 - Kind of handy test, but not reliable.
-
 * H73: Using the summary attribute of the table element to give an overview of data tables (HTML)
 
 	* `tableLayoutHasNoSummary` should be assigned to H73.
@@ -51,6 +50,10 @@ Note in this document we refer to Failure of SC also as Technique, since Quail t
 * F43
 	* `blockquoteNotUsedForIndentation` could be also mapped to `F43`.
 	* `pNotUsedAsHeader` could be also mapped to `F43`.
+
+## Missing Techniques
+
+For missing techniques see [missing_1_3_1.md](missing_1_3_1.md).
 
 # 2.4.6 Headings and Labels: Headings and labels describe topic or purpose. (Level AA) | We can e.g. ensure that hadlines / labels aren't too lengthy.
 
