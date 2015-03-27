@@ -19,6 +19,7 @@ var assessments = [
 	// 'tableDataShouldHaveTh', // Only after fixed mentioned in F91.
 	// 'documentContentReadableWithoutStylesheets', // Only after fixes mentioned in G140.
 	'headersHaveText',
+	'headerTextIsTooLong',
 	'tableCaptionIdentifiesTable',
 	// 'tableUsesScopeForRow', // Only after fixes mentioned in H63.
 ];
